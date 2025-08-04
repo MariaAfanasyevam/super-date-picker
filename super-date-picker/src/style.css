@@ -1,0 +1,126 @@
+.super-date-picker {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    background-color: #f9f9f9;
+    font-family: sans-serif;
+}
+
+.picker-header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+}
+
+.super-date-picker select,
+.super-date-picker button {
+    padding: 6px 10px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    cursor: pointer;
+    min-width: 140px;
+
+}
+.calendar-img{
+    width: 30px;
+    height:30px;
+}
+#refresh-button {
+    background-color: #347ce8;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+}
+#refresh-button img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    z-index: 1;
+}
+.select-text{
+    color: black;
+}
+.text{
+    padding-right: 10px;
+    margin-left: 15px;
+    z-index: 1;
+    font-size: 15px;
+    color: white;
+}
+.button2 {
+    display: none;
+    position: absolute;
+    transform: translate(0, -90%);
+    margin: 1px;
+    min-width: 152px;
+    min-height: 25px;
+    background: rgba(99, 99, 99, 0.67);
+    border-radius: 8px;
+}
+.super-date-picker button:hover {
+    background-color: #ffffff;
+    border-color: #3399ff;
+    color: black;
+}
+
+.react-datepicker-wrapper {
+    display: inline-block;
+}
+.react-datepicker__input-container input {
+    padding: 6px 10px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+    margin-left:10px;
+}
+
+.super-date-picker ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.super-date-picker li button {
+    background: none;
+    border: none;
+    color: #007acc;
+    cursor: pointer;
+    padding: 4px 0;
+    text-align: left;
+}
+
+.super-date-picker li button:hover {
+    text-decoration: underline;
+}
+#calendar-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+}
+
+#calendar-button img {
+    width: 40px;
+    height: 40px;
+}
+
+.quick-range-panel {
+    position: absolute;
+    top:80px;
+    left:20px;
+    margin-top: 12px;
+    z-index: 1;
+    padding: 12px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 8px;
+}
